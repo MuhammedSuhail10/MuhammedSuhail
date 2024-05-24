@@ -1,0 +1,89 @@
+#head{
+    animation: head-anim 4s linear;
+}
+@keyframes head-anim{
+    0%{
+        opacity: 0;
+        transform: scaleX(120%);
+    }
+    20%{
+        transform: scaleX(110%);
+        opacity: 0.3;
+    }
+    50%,100%{
+        transform: scaleX(100%);
+        opacity: 1;
+    }
+}
+#home{
+    animation: head-anims 2s linear;
+}
+@keyframes head-anims{
+    0%,10%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+#load{
+    animation: load-anim 2s linear reverse;
+}
+@keyframes load-anim{
+    0%{
+        margin-top: -100em;
+        opacity: 0;
+    }30%,100%{
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.scroll-anim{
+    margin-left: -10em;
+    opacity: 0.1;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry 50px;
+}
+@keyframes fade-in {
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+.scroll-anim-card{
+    margin-top: -5em;
+    opacity: 0.1;
+    animation: fade-up linear forwards;
+    animation-timeline: view();
+    animation-range: entry 5px;
+}
+@keyframes fade-up {
+    to {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+.scroll-anim-text{
+    margin-top: -3.5em;
+    opacity: 0.1;
+    animation: fade-up linear forwards;
+    animation-timeline: view();
+    animation-range: entry 10px;
+}
+@keyframes fade-up {
+    to {
+        margin-top: 2em;
+        opacity: 1;
+    }
+}
+.scroll-fade{
+    opacity: 0;
+    animation: fade linear forwards;
+    animation-timeline: view();
+    animation-range: entry 10px;
+}
+@keyframes fade {
+    to {
+        opacity: 1;
+    }
+}

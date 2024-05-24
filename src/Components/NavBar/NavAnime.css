@@ -1,0 +1,12 @@
+.nav-anim{
+    animation: fade-on 2s linear forwards;
+}
+@keyframes fade-on{
+    from{
+        opacity: 0;
+        color: #34A0A4;
+    }
+    to{
+        opacity: 0.6;
+    }
+}

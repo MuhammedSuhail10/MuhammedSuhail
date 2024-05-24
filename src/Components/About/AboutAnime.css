@@ -1,0 +1,50 @@
+.about-anime{
+    animation: about-fade 2s linear;
+}
+@keyframes about-fade{
+    0%{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.scroll-about{
+    margin-top: 1em;
+    transform: scale(100%);
+    opacity: 0;
+    animation: about-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry 50px;
+}
+@keyframes about-in {
+    80%{
+        transform: scale(105%);
+    }
+    100% {
+        margin-top: 0;
+        transform: scale(100%);
+        opacity: 1;
+    }
+}
+.scroll-exp{
+    margin-top: 3em;
+    animation: exp-in ease-in-out 3s forwards;
+    animation-timeline: view();
+    animation-range: entry 100px;
+}
+@keyframes exp-in {
+    50%{
+        margin-top: 2em;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+.comp:hover .line-comp{
+    display: block;
+    width: 9em;
+}
+.comp:hover .scroll-comp{
+    animation: scroll 5s linear infinite;
+}

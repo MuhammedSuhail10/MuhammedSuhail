@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('../Outfit/Outfit-Thin.eot');
+    src: url('../Outfit/Outfit-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../Outfit/Outfit-Thin.woff2') format('woff2'),
+        url('../Outfit/Outfit-Thin.woff') format('woff'),
+        url('../Outfit/Outfit-Thin.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: block;
+}
