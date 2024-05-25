@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/MuhammedSuhail/static/css/main.3df0a283.css",
+    "main.js": "/MuhammedSuhail/static/js/main.3b9fcca4.js",
+    "static/js/453.ace21015.chunk.js": "/MuhammedSuhail/static/js/453.ace21015.chunk.js",
+    "static/media/Jomhuria-Regular.eot": "/MuhammedSuhail/static/media/Jomhuria-Regular.3e81eca35de0f613affa.eot",
+    "static/media/Jomhuria-Regular.ttf": "/MuhammedSuhail/static/media/Jomhuria-Regular.18a5f68f60f40669dbe0.ttf",
+    "static/media/Resume.pdf": "/MuhammedSuhail/static/media/Resume.00a046fafd869326611d.pdf",
+    "static/media/op2.jpg": "/MuhammedSuhail/static/media/op2.2fa3b11275fa8e29ecc8.jpg",
+    "static/media/Jomhuria-Regular.woff": "/MuhammedSuhail/static/media/Jomhuria-Regular.a6a845ecd6b742aa9694.woff",
+    "static/media/Outfit-Thin.eot": "/MuhammedSuhail/static/media/Outfit-Thin.44fb50f756174e162a98.eot",
+    "static/media/Outfit-Thin.ttf": "/MuhammedSuhail/static/media/Outfit-Thin.c22ab881762c04cd1dce.ttf",
+    "static/media/Jomhuria-Regular.woff2": "/MuhammedSuhail/static/media/Jomhuria-Regular.5f936af42e801e608717.woff2",
+    "static/media/RussoOne-Regular.eot": "/MuhammedSuhail/static/media/RussoOne-Regular.adb864e52fa979ebbd95.eot",
+    "static/media/RussoOne-Regular.ttf": "/MuhammedSuhail/static/media/RussoOne-Regular.c98db9c0238b37c935c6.ttf",
+    "static/media/Outfit-Thin.woff": "/MuhammedSuhail/static/media/Outfit-Thin.71081ac898eb5145c245.woff",
+    "static/media/Outfit-Thin.woff2": "/MuhammedSuhail/static/media/Outfit-Thin.c9ba6208be50d22f9770.woff2",
+    "static/media/RussoOne-Regular.woff": "/MuhammedSuhail/static/media/RussoOne-Regular.7eb57abeb22a44cdf7a7.woff",
+    "static/media/RussoOne-Regular.woff2": "/MuhammedSuhail/static/media/RussoOne-Regular.e6300f10fda8613601f6.woff2",
+    "index.html": "/MuhammedSuhail/index.html",
+    "main.3df0a283.css.map": "/MuhammedSuhail/static/css/main.3df0a283.css.map",
+    "main.3b9fcca4.js.map": "/MuhammedSuhail/static/js/main.3b9fcca4.js.map",
+    "453.ace21015.chunk.js.map": "/MuhammedSuhail/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3df0a283.css",
+    "static/js/main.3b9fcca4.js"
+  ]
+}
