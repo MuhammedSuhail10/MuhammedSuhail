@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MuhammedSuhail10.github.io/MuhammedSuhail",
+  "homepage": "https://muhammedsuhail10.github.io/MuhammedSuhail/",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
