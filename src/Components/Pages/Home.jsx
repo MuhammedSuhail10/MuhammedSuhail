@@ -9,14 +9,14 @@ const Home = () => {
     const [counter, setCounter] = useState(0);
     useEffect(() => {
         const interval = setInterval(() => {
-            if (counter <= 105) {
-                setCounter((prevCounter) => prevCounter + 1);
-                if (counter == 101) {
+            if (counter <= 104) {
+                setCounter((prevCounter) => prevCounter + 5);
+                if (counter === 100) {
                     document.getElementById('load').style.display = "none";
                     document.getElementById('home').style.display = "block";
                 }
             }
-        }, 10);
+        }, 15);
         return () => clearInterval(interval);
     }, [counter]);
     return (

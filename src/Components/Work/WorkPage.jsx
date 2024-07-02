@@ -12,7 +12,7 @@ const WorkPage = ({data}) => {
           <div className='mt-[3.5em] pb-[1em] md:pl-[4em] lg:pr-[10em] lg:text-[1.9em] text-[1.1em] px-[1.2em] '></div>
         </div>
       </div>
-      <div className='about-anime md:mt-[-5em] mt-[-4em] lg:px-[7em] px-[1em] text-[#FEFAE0]'>
+      <div className='about-anime md:mt-[-4.5em] mt-[-4em] lg:px-[7em] px-[1em] text-[#FEFAE0]'>
         {data.map((i) =>
           <>
             <div key={i.id} className='scroll-anim mb-[1.5em] px-[0.5em] md:px-[] whitespace-nowrap mt-[2.5em] hover:bg-[#1f1f1f] hover:text-[#34A0A4] hover:pt-[0.2em] hover:lg:px-[2em] hover:md:px-[1em] hover:px-[0.5em] hover:rounded-lg transition-all duration-100 '>
